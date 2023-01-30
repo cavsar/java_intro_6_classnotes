@@ -2,11 +2,26 @@ package first_package;
 
 public class FirstProgram {
     public static void main(String[] args) {
-        System.out.println("This is TechGlobal");
-        System.out.println("I am learning Java");
-        System.out.println("My name is Tech");
+
+        //We are learning how to println
+        System.out.println("This is TechGlobal"); // This is TechGlobal
+        System.out.println("I am learning Java"); // I am learning Java
+        System.out.println("My name is Tech"); // My name is Tech
+
+        /*
+        Multi-line comments
+         */
 
 
-        // More practices
+        /**
+         *
+         * This method is used for
+         *
+         *
+         *
+         *
+         *
+         */
+
     }
 }
