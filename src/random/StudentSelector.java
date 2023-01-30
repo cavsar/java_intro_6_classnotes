@@ -1,0 +1,51 @@
+package random;
+
+public class StudentSelector {
+    public static void main(String[] args) {
+        String[] students = {
+                "Adam",
+                "Ahmad S",
+                "Ahmet K",
+                "Ali",
+                "Alina",
+                "Altynai",
+                "Anatolii",
+                "Anton",
+                "Assem",
+                "Ayat",
+                "Bakrieh",
+                "Belal",
+                "Carmela",
+                "Cihan",
+                "Dumitru",
+                "Fidan",
+                "Gurkan",
+                "Hadi",
+                "Hamza A",
+                "Hamza I",
+                "Hayriye",
+                "Jehad",
+                "Lesia",
+                "Louie",
+                "Matthew",
+                "Melek",
+                "Meerim",
+                "Mutaz",
+                "Okan",
+                "Pinar",
+                "Paul",
+                "Ruby",
+                "Sabir",
+                "Sandina",
+                "Tareq",
+                "Vildan",
+                "Yana",
+                "Yazan",
+                "Yhehia",
+                "Yousef",
+                "Zeliha",
+                "Zhazira",
+        };
+        System.out.println("The lucky student is = " + students[(int) (Math.random() * students.length)].toUpperCase());
+    }
+}
