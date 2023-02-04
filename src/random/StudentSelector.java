@@ -2,6 +2,12 @@ package random;
 
 public class StudentSelector {
     public static void main(String[] args) {
+        /**
+         *
+         *Below code is fetching a student name randomly when invoked
+         *There is chance that one student could be selected multiple time in a row
+         */
+
         String[] students = {
                 "Adam",
                 "Ahmad S",

@@ -4,6 +4,117 @@
 02-04-2023 Operators
 
 
+RECAP:
+
+Naming convention:
+Class name: 
+	-Meaningful
+	-Starts with uppercase
+	-Follows camelcase rule
+	-It cannot start with digits and specials except _, $ the other currencies
+	-It cannot have space
+
+Package name:
+	-Meaningful
+	-Starts with lowercase
+	-Follows camelcase rule
+	-It cannot start with digits and specials except
+	-It cannot have space (my_package)
+
+public class MyClass{
+	public static void main(String[] args){
+		// all our code goes here
+	}
+}
+
+
+Variable: containers that stores data.
+dataType variableName = value;
+
+int age = 25;
+String name = "John";
+
+In the above statements, age and name are variables used to store data.
+
+
+Primitives:
+byte, short, int, long 	-> absolute numbers like 2, 10, 35
+float, double	 		-> decimal numbers like 2, 10.65, 
+char 					-> single character like 'A', '$'
+boolean 				-> true or false
+
+
+
+int age = 25;
+double price = 25;
+char var1 = 'e';
+boolean b1 = true;
+boolean b2 = false;
+
+
+String var2 = "text";
+
+
+NOTE: Store all the currency related data in double.
+
+String age = "25";
+
+
+
+Scanner: 	
+-It is a Java class that helps reading input from user.
+-It comes from java.util package
+-It has some pre-defined methods for reading different types of data.
+
+next() 		-> reads only one String data from the user
+nextLine() 	-> reads the whole line as a String from the user
+nextInt() 	-> reads the next absolute number data from the user
+nextDouble()-> reads the next decimal number data from the user
+
+
+HOW TO USE Scanner Object?
+1. Create a Scanner object
+	Scanner varName = new Scanner(System.in);
+
+	input, myScanner, scanner, scan, inputReader
+
+2. Make sure it is imported from java.util package
+3. Use variable name to read data from the user
+
+
+Redundant: extra code in your program that can be eliminated.
+
+
+NICE CODE:
+Readable: 
+	-providing space for the operators
+	-meaningful identifiers (variable, class, package, object)
+
+Reusable: reuse your object and variables if possible
+
+Comments: single line, multiline, documentation
+
+//single
+
+/*
+multiline
+*/
+
+/**
+*
+*Documentation
+*
+*/
+
+
+
+Scanner problem for skipping some questions!!!
+
+next(), nextInt(), nextDouble()... 
+
+empty line -> nextLine()
+
+nextLine()
 
 
 
