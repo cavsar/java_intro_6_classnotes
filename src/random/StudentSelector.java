@@ -43,7 +43,6 @@ public class StudentSelector {
                 "Ruby",
                 "Sabir",
                 "Sandina",
-                "Tareq",
                 "Vildan",
                 "Yana",
                 "Yazan",
