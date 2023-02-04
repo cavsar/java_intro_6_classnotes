@@ -119,6 +119,99 @@ nextLine()
 
 
 
+OPERATORS
+1. Assignment Operator
+	= operator is used to assign values into variables
+
+	int age = 45; // data = number
+	String name = "John"; //  data = text
+	Scanner input = new Scanner(System.in); // data = scanner object
+
+2. Arithmetic operators
+Java has 5 basic arithmetic operators
+	+ 	addition
+	- 	subtraction
+	* 	multiplication
+	/ 	division
+	% 	modulus (remainder)
+
+
+REMAINDER
+First number is greater than the second and first number and is not divisible by the second?
+
+10 % 4 = 2 		-> 10 = 2*4 + 2
+35 % 8 = 3 		-> 35 = 4*8 + 3
+
+23 % 9 = 5		-> 23 = 2*9 + 5
+
+63 % 8 = 7		-> 63 = 7*8 + 7
+
+
+First number is greater than or equals the second and first number and is divisible by the second number?
+
+4 % 2 = 0 		-> 4 = 2*2 + 0
+5 % 5 = 0
+35 % 7 = 0
+
+
+
+
+First number is less than the second
+3 % 5 	= 3 	-> 3 = 0*5 + 3
+27 % 30 = 27 	-> 27 = 0*30 + 27
+7 % 10 = 7
+
+
+23 % 3 = 2
+7 % 15 = 7
+10 % 10 = 0
+35 % 5 = 0
+
+
+NOTE: BE CAREFUL with + operator
++ is used for concatenation
++ is used for addition
+
+num + num + num -> addition
+"" + num + num 	-> concatenation
+
+"The sum = 105"
+
+
+JAVA EXECUTION ORDER
+Top to bottom
+Left to right
+
+
+
+
+
+Order of operations
+1. Exponential
+2. Parentheses
+3. Multiplication/division
+4. Sum/subtraction
+
+
+
+3 + 5 - 2 * 3 = 
+
+(3 * (2 + 5 - 3)) / 2 = 6
+
+2^3 + 5 / 5 * 3 + 3 - 2 = 12
+
+
+
+
+
+Shorthand Assignment operators
++=   
+-=
+/=
+*=
+%=
+
+
 
 
 
