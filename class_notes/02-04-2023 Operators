@@ -213,11 +213,13 @@ Shorthand Assignment operators
 
 
 
+double balance = 100.0;
 
+balance -= 4.53; // 95.47
 
+balance -= 25.27; // 70.2
 
-
-
+balance += 150.0; // 220.2
 
 
 
