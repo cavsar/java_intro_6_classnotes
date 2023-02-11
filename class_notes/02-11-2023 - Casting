@@ -1,0 +1,56 @@
+
+
+
+02-11-2023 - Casting
+
+
+RECAP:
+
+Scanner Issue: 
+next(), nextInt(), nextDouble()
+input.nextLine();
+
+input.nextLine();
+
+
+Data types:
+	Primitives: byte, short, int, long, float, double, char, boolean
+	Reference types: String, Scanner, Math, System
+				Byte, Short, Integer, Long, Float, Double, Boolean, Character
+
+
+
+Math class:
+min(a, b) -> returns the min value
+max(a, b) -> retutns the max value
+abs(2-5)  -> 3
+
+
+random()	-> returns a value between 0.0 (inclusive) and 1.0 (exclusive)
+
+
+Math.random() -> 0.832765823
+
+
+get me a random number between 17 53 (both inclusive)
+
+Steps to produce a random number for given range
+1. Find how many numbers in your range: biggest - smallest + 1
+53 - 17 + 1 -> 37
+
+2. Multiply your random result with the number
+(int)(Math.random() * 37) -> 0 and 36 (both inclusive)
+
+
+3. Add smallest number to your result
+(int)(Math.random() * 37) + 17 -> 17 and 53 (both inclusive)
+
+
+
+CASTING:
+
+
+
+
+
+
