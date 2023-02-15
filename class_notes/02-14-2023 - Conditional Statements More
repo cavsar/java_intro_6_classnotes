@@ -1,0 +1,36 @@
+
+
+
+02-14-2023 - Conditional Statements More
+
+
+if-else statements
+-if else statements in Java can be used to control the flow the program. Usually, there are multiple blocks of code that will probably be executed based on a condition.
+
+
+SYNTAX:
+if(condition1){
+	// this block will be executed in case condition1 is true
+}
+else if(condition2){
+	// this block will be executed in case condition2 is true
+}
+else{ // any other possibility
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,15 +17,9 @@ public class Exercise03_PosNegZero {
         int number = input.nextInt();
 
         //First way
-        if(number > 0){ // 0
-            System.out.println("POSITIVE");
-        }
-        else if (number < 0){
-            System.out.println("NEGATIVE");
-        }
-        else {
-            System.out.println("ZERO");
-        }
+        if(number > 0) System.out.println("POSITIVE");
+        else if (number < 0) System.out.println("NEGATIVE");
+        else System.out.println("ZERO");
 
 
         //Second way

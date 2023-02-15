@@ -15,7 +15,7 @@ public class Exercise04_RetirementAge {
         Program: It is your time to get retired!
 
 
-        EXAMPLE PROGRAM 1
+        EXAMPLE PROGRAM 2
         Program: Please enter your age?
         User: 20
         Program: You have 35 years to be retired
@@ -33,18 +33,12 @@ public class Exercise04_RetirementAge {
         System.out.println("Please enter your age?");
         int age = input.nextInt();
 
-        if(age >= 55){
-            System.out.println("It is your time to get retired!");
-        }
+        if(age >= 55) System.out.println("It is your time to get retired!");
         else{
             int ageLeft = 55 - age;
 
-            if(ageLeft == 1){
-                System.out.println("You have 1 year to be retired");
-            }
-            else{
-                System.out.println("You have " + ageLeft + " years to be retired");
-            }
+            if(ageLeft == 1) System.out.println("You have 1 year to be retired");
+            else System.out.println("You have " + ageLeft + " years to be retired");
         }
 
         System.out.println("End of the program");
