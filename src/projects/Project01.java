@@ -1,8 +1,6 @@
 package projects;
 
-import java.util.Scanner;
-
-public class Projects01 {
+public class Project01 {
     public static void main(String[] args) {
         /*
             TASK-1
