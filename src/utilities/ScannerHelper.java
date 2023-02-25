@@ -45,4 +45,22 @@ public class ScannerHelper {
         return number;
     }
 
+
+    public static String getString(){
+        System.out.println("Please enter a String");
+        String str = input.nextLine();
+
+        return str;
+    }
+
+    public static String getFavBook(){
+        System.out.println("Please enter your favorite book");
+        return input.nextLine();
+    }
+
+    public static String getFavQuote(){
+        System.out.println("Please enter your favorite quote");
+        return input.nextLine();
+    }
+
 }
