@@ -63,3 +63,6 @@ else{
 	}
 }
 
+System.out.println("\"The only way to do great work is to love what you do\"\n. Steve Jobs");
+System.out.println("\"The only way to do great work is to love what you do.\"\nSteve Jobs");
+
