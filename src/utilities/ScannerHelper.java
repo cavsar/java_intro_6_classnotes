@@ -63,4 +63,14 @@ public class ScannerHelper {
         return input.nextLine();
     }
 
+    public static String getFavCountry(){
+        System.out.println("Please enter your favorite Country");
+        return input.nextLine();
+    }
+
+    public static String getAddress(){
+        System.out.println("Please enter your address");
+        return input.nextLine();
+    }
+
 }
