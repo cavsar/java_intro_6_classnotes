@@ -27,6 +27,9 @@ i < 11  == i <= 10
 
 
 
+str.charAt(i) == 'A' || str.charAt(i) == 'a'
+str.toLowerCase().charAt(i) == 'a'
+str.toUpperCase().charAt(i) == 'A'
 
 
 
