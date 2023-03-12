@@ -1,0 +1,81 @@
+
+
+
+03-12-2023 - Loops Part 2
+
+
+Loops
+	-
+
+
+1. for loop - i loop - traditional loop
+2. while loop
+3. do-while loop
+4. for each loop - used with collections
+
+
+
+INFINITE LOOP: this is the loop you have a mistake and never stops.
+The update is not going towards the termination condition
+
+for(initialization; termination; update){
+	
+}
+
+for(int i = 10; i < 20; i--){ // infinite loop
+	
+}
+
+for(; ;){ // infinite loop
+	
+}
+
+
+OCA EXAM: JAVA Certification
+
+
+
+A LOOP THAT NEVER RUN:
+-When the condition is false for the first iteration, then the loop does not run.
+
+for(int i = 10; i > 20; i++){
+	System.out.println(i);
+}
+
+
+
+iteration: each time that loop executes
+
+
+
+
+
+while loop syntax:
+-initialization, termination, update
+
+initialization
+
+while(condition){
+	//block of code to be executed
+	update
+}
+
+
+int num = 1;
+
+while(num <= 5){
+	sout(num);
+	num++;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
