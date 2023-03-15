@@ -66,6 +66,39 @@ else{
 isLetter(), isDigit(), isLetterOrDigit(), isWhitespace(), isUpperCase(), isLowerCase() 
 
 
+if(Character.isUpperCase(c)) {
+    _upper++;
+    _letters++;
+}
+else if(Character.isLowerCase(c)) {
+    _lower++;
+    _letters++;
+}
+else if(Character.isDigit(c)) _digits++;
+else if(Character.isWhitespace(c)) _spaces++;
+else _specials++;
+
+
+if(Character.isLetter(c)){
+	_letters++;
+
+	if(Character.isUpperCase(c)) _upper++;
+	else _lower++;
+}
+else if(Character.isDigit(c)) _digits++;
+else if(Character.isWhitespace(c)) _spaces++;
+else _specials++;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
