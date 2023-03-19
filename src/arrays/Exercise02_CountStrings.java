@@ -36,5 +36,34 @@ public class Exercise02_CountStrings {
         }
 
 
+        // 9. Count how many country has 5 characters -> 2
+        int count5 = 0;
+
+        for (String country : countries) {
+            if(country.length() == 5) count5++;
+        }
+
+        System.out.println(count5); // 2
+
+
+        count5 = 0;
+
+        for (int i = 0; i < countries.length; i++) {
+            if (countries[i].length() == 5) count5++;
+        }
+
+        System.out.println(count5); // 2
+
+
+        // 10. Count how many countries has letter I or i in their name -> 3
+        int countI = 0;
+
+        for (String country : countries) {
+            if (country.toLowerCase().contains("i")) {
+                countI++;
+            }
+        }
+
+        System.out.println(countI); // 3
     }
 }

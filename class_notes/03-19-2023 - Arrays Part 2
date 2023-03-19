@@ -117,3 +117,47 @@ Wrapper classes -> Byte, Short, Integer, Long, Float, Double, Character, Boolean
 
 
 
+HOW TO SORT AN ARRAY?
+-Sorting an array means ordering elements inside an array
+	numbers: ascending order, smallest to greatest
+	strings: alphabetically, lexicographically
+
+	"Alex", "ali", "John", "James" -> Alex, James, John, ali
+
+-Arrays class has method called sort() and it can be used to sort array elements
+
+int[] numbers = {5, 3, 10};
+String[] words = {"Alex", "ali", "John", "James"};
+
+//Sort them 
+Arrays.sort(numbers);
+Arrays.sort(words);
+
+
+//Print the arrays back
+System.out.println(numbers); // [3, 5, 10]
+System.out.println(words); // [Alex, James, John, ali]
+
+
+
+
+
+
+HOW TO SEARCH IN AN ARRAY?
+1. We can either use loop logic or binarySearch() method
+	NOTE: binarySeacrh() method can ONLY be used with sorted arrays
+2. binarySearch(arrayVar, element) method takes 2 argument, first is the array and second is the element you are looking for
+3. if element exists in the array, you will get index of 0 or positive
+4. if element does not exist in the array, you will get a negative index (-insertion point -1)
+
+
+
+
+
+
+
+
+
+
+
+
