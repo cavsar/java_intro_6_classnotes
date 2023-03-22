@@ -1,7 +1,5 @@
 package random;
 
-import utilities.Printer;
-
 public class StudentSelector {
     public static void main(String[] args) {
         /**
@@ -12,14 +10,12 @@ public class StudentSelector {
 
         String[] students = {
                 "Adam",
-                "Ali",
                 "Alina",
                 "Altynai",
                 "Anatolii",
                 "Anton",
                 "Assem",
                 "Ayat",
-                "Bakrieh",
                 "Belal",
                 "Carmela",
                 "Cihan",
