@@ -15,6 +15,7 @@ Arrays:
 NOTE: Only arrays can work with primitives while all other collections works only with reference types
 
 Arrays vs ArrayList
+-ArrayList can be considered as dynamic sized arrays
 -both of them collections and used to store multiple similar data.
 -both allows null elements.
 -both allows duplicates.
@@ -48,6 +49,31 @@ JAVA COLLECTION FRAMEWORK
 		-LinkedHashMap
 		-TreeMap
 		-Hashtable
+
+
+
+byte, short, int, long, float, double, char, boolean
+Byte, Short, Integer, Long, Float, Double, Character, Boolean
+
+
+
+String name = "John";
+
+name.indexOf('x'); // -1
+
+
+
+list -> 10, 15, 13, 26, 11, 6, 7, 3, 5, 13, 26, 3
+removeList -> 3, 13, 26
+
+
+Remove all the elements that are equals 3, 13, 26
+
+
+list.removeAll(removeList)
+
+
+
 
 
 
