@@ -1,0 +1,63 @@
+
+
+
+03-25-2023 - ArrayList
+
+Arrays: 
++it is a collection used to store multiple data
++It allows us to manipulate the date inside it
++Allows duplicates
++it can used both with primitives and reference types
+
+-fixed-sized, and you cannot add/remove elements
+
+
+NOTE: Only arrays can work with primitives while all other collections works only with reference types
+
+Arrays vs ArrayList
+-both of them collections and used to store multiple similar data.
+-both allows null elements.
+-both allows duplicates.
+-Arrays are fixed-sized while we can modify ArrayLists by adding or removing elements.
+-Arrays can store both primitives and object while ArrayList can only store objects.
+-Arrays does not provide many useful methods to update, retrieve elements (instead we use [index]). On the other hand, ArrayList provides many useful methods to get, delete, update, add, etc elements.
+
+
+ARRAYLIST METHODS
+
+
+ARRAYLIST SNYTAX:
+ArrayList<dataType> varName = new ArrayList<>();
+List<dataType> varName = new ArrayList<>();
+
+
+JAVA COLLECTION FRAMEWORK
+	
+	LIST
+		-ArrayList
+		-LinkedList
+		-Vector
+
+	SET
+		-HashSet
+		-LinkedHashSet
+		-TreeSet 		-> sorts element by default
+
+	MAP
+		-HashMap
+		-LinkedHashMap
+		-TreeMap
+		-Hashtable
+
+
+
+
+
+
+
+
+
+
+
+
+
