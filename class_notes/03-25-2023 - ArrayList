@@ -25,6 +25,11 @@ Arrays vs ArrayList
 
 
 ARRAYLIST METHODS
+-Individual element manipulation
+-Group of element manipulation
+	addAll(), removeAll(), containsAll(), retainAll()
+
+list contains "Jane", "Jasmine", "John"
 
 
 ARRAYLIST SNYTAX:
@@ -74,7 +79,7 @@ list.removeAll(removeList)
 
 
 
-
+Keep the elements that 15, 5, and 7 but remove the rest
 
 
 
