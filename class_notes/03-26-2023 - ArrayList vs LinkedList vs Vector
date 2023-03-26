@@ -75,7 +75,9 @@ Collections.sort(list);
 
 
 HOW TO CONVERT AN ARRAY TO AN AARAYLIST?
--We can use loop or asList() method
+        1. Arrays.asList() method
+        2. Loops - manual way
+        3. Collections.addAll(collection1, collection2); // it will add collection2 into collection1
 
 1. Using asList() method
 
@@ -91,8 +93,59 @@ ArrayList<Integer> list = List.of(10, 15, 5, 2, -7);
 
 
 
+ArrayList vs LinkedList vs Vector
+-They are collections and specially List.
+-ArrayList stores element with their indexes and when you add or remove elements, most of the element indexes are updated which makes performance slow.
+-LinkedList stores element with nodes (previous element, next element, index) which makes removing or adding faster because there is no need to update indexes.
+
+NOTE: LinkedList provides us more methods to work around the data compared to ArrayList.
+
+-List is parent of ArrayList, LinkedList and Vector
+-LinkedList has more parents like Queue and Deque and hence it provides more methods.
+
+PERFORMANCE: LinkedList is faster and ArrayList only when it comes to removing or adding elements.
+MEMORY: LinkedList allocates more memory compared to ArrayList.
 
 
+-Vector is synchronized ArrayList. 
+synchronized = thread-safe
+
+When you run multiple threads at the same time, Vector will synchronize them automatically. It will wait for one thread to be done with their operation before the other starts.
+
+
+
+
+ArrayList<dataType> varName = new ArrayList<>();
+List<dataType> varName = new ArrayList<>();
+
+
+LinkedList<dataType> varName = new LinkedList<>();
+List<dataType> varName = new LinkedList<>();
+
+
+Vector<dataType> varName = new Vector<>();
+List<dataType> varName = new Vector<>();
+
+
+
+
+
+
+"Adam", "John", "James"
+
+
+Thread 1 							Thread 2
+add "Jane" -> size 4 				Remove "John" -> size 3
+
+
+
+
+LinkedList Methods
+pop() == removeFirst() -> retrieve and remove the first element in the list
+
+push() == addFirst() == offerFirst() -> add element to the 0th index
+
+offer() == offerLast()  -> add element to the last index
 
 
 
