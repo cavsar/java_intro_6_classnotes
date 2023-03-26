@@ -149,6 +149,12 @@ offer() == offerLast()  -> add element to the last index
 
 
 
+JAVA STREAM & LAMBDA EXPRESSION
 
 
+for(Integer element : list){
+ if(element.toString().contains("3")) count++;
+}
+
+list.stream().filter(x -> String.valueOf(x).contains("3")).count();
 
