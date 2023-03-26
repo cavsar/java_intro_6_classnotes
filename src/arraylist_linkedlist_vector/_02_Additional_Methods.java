@@ -125,10 +125,13 @@ public class _02_Additional_Methods {
 
         System.out.println(numbers); // [10, 11, 12, 13]
 
+        System.out.println(numbers.isEmpty()); // false
         numbers.clear();
         //numbers.removeAll(numbers);
 
         System.out.println(numbers); // []
+        System.out.println(numbers.isEmpty()); // true
+        System.out.println(numbers.size()); // 0
 
     }
 }
