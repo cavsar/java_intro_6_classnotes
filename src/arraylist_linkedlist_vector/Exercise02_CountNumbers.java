@@ -1,6 +1,5 @@
 package arraylist_linkedlist_vector;
 
-import com.sun.tools.internal.xjc.model.CElement;
 
 import java.util.ArrayList;
 import java.util.Arrays;
