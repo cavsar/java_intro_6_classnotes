@@ -1,0 +1,79 @@
+
+
+
+04-29-2023 Collection Framework - List vs Set
+
+
+Collection: group of same data type stored together in a variable
+
+Arrays: works with primitives and reference types. Does not provide many methods compared to other collections and instead it works with indexes in the []. It MUST have an initial size and it cannot be changed be later.
+
+String[] names = new String[3];
+Employee[] employees = new Employee[10];
+Animal[] animals = new Animal[2];
+
+int[] numbers = new int[5];
+
+
+
+
+List: is an interface
+	ArrayList: 
+	LinkedList:
+	Vector: 
+
+class implements interface
+
+ArrayList implements List{
+	// implement all the abstract methods in the List interface
+}
+
+LinkedList implements List, Queue, Dequeue{
+	
+}
+
+Vector implements List{
+	
+}
+
+
+
+ArrayList<Animal> animals1 = new ArrayList<>();
+List<Animal> animals2 = new ArrayList<>(); // polymorphism 
+
+
+
+
+Collection Framework: is a set of pre-written classes and interfaces that helps us to organize and manipulate groups of objects
+
+By using Java Collections Framework, we can organize our objects in different ways like lists, sets, or maps
+
+The reason we need to use these types that Array is very useful, but it has some restriction
+-Fixed size (we cannot add elements or remove)
+-It does not have methods to manipulate data
+
+
+
+
+HOW DO WE COMPARE THESE COLLECTIONS?
+	- insertion order
+	- duplicates
+	- null elements (no info-value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

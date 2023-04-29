@@ -11,7 +11,6 @@ public class StudentSelector {
         String[] students = {
                 "Adam",
                 "Alina",
-                "Altynai",
                 "Anatolii",
                 "Anton",
                 "Assem",
@@ -31,7 +30,6 @@ public class StudentSelector {
                 "Melek",
                 "Meerim",
                 "Okan",
-                "Pinar",
                 "Paul",
                 "Sabir",
                 "Sandina",
