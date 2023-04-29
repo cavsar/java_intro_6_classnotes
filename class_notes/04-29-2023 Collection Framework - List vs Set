@@ -59,12 +59,90 @@ HOW DO WE COMPARE THESE COLLECTIONS?
 	- insertion order
 	- duplicates
 	- null elements (no info-value)
+	- memory
+	- performance
 
 
 
 
 
+				When do we use List or Set?
 
+				  my data has duplicates?
+
+			YES 								NO
+		    List 								Set
+ 		Is it synchronized? 				Do we sort?
+NO 							YES         YES 				NO
+ArrayList or LinkedList		Vector      TreeSet 	HashSet or LinkedHashSet
+do we change size too much? 						Do we keep insertion?
+YES 			NO 									YES 			NO
+LinkedList		ArrayList							LinkedHashSet   HashSet
+
+
+
+
+ArrayList is the most used List implementation. (90 percent)
+HashSet is the most used Set implementation. (80 percent)
+
+
+
+1. Find closest element that is less than or equal to the given element
+    -floor(element) method returns the greatest element in this set less than or equal to the given element, or null if there is no such element.
+
+2. Find closest element that is more than or equal to the given element
+    -ceiling(element) method returns the closest element in this set greater than or equal to the given element, or null if there is no such element.
+
+3. Find the greatest element that is less than the given element
+    -lower(element) method returns the greatest element in this set less than the given element, or null if there is no such element.
+
+4. Find the smallest element that is more the than given element
+    -higher(element) method returns the smallest element in this set more than the given element, or null if there is no such element.
+
+
+
+Find closest to 10?
+
+
+1, 20, 23, 10, 8 		-> 8
+
+1, 7, 10, 13, 20 		-> 7
+
+
+set.remove(10);
+
+set.ceiling(10) 		-> 20 	13
+set.floor(10) 			-> 8 	7
+
+return Math.abs(10 - set.floor(10)) <= Math.abs(10 - set.ceiling(10)) ? set.floor(10) : set.ceiling(10);
+
+
+
+MAP
+
+
+key - value
+Countries 	Capitals
+France 		Paris
+Germany 	Berlin
+Italy 		Rome
+
+
+HashMap<String, String> map = new HashMap<>();
+
+map.put("France", "Paris");
+
+
+map.get("France"); // Paris
+
+
+
+HashMap<String, Integer> map = new HashMap();
+map.put("Okan", 25);
+map.put("John", 45);
+
+
+map.get("Okan"); // 25
 
 
 

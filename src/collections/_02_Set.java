@@ -3,6 +3,7 @@ package collections;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class _02_Set {
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class _02_Set {
         3. TreeSet
                - It keeps insertion order - it sorts the elements
                - It does not allow duplicates
-               - It DOES NOT ALLOW any null element as it does not know how to sort it with numbers and strings
+               - It DOES NOT ALLOW any null element as it does not know how to sort it with numbers and strings when the element is null
          */
 
         System.out.println("\n----------HashSet---------\n");
@@ -77,5 +78,36 @@ public class _02_Set {
         System.out.println(words); // [null, Sandina, Okan, Alex, John, abc, 123, , Sal, Boo]
 
 
+        System.out.println("\n----------TreeSet---------\n");
+        TreeSet<String> treeSet = new TreeSet<>();
+        //treeSet.add(null); // NullPointerException
+        treeSet.add("Sandina");
+        treeSet.add("Okan");
+        treeSet.add("Alex");
+        treeSet.add("Alex");
+        treeSet.add("John");
+        treeSet.add("abc");
+        treeSet.add("123");
+        treeSet.add("");
+        treeSet.add("Sal");
+        treeSet.add("Boo");
+
+        System.out.println(treeSet); // [, 123, Alex, Boo, John, Okan, Sal, Sandina, abc]
+
+        System.out.println(treeSet.descendingSet()); // [abc, Sandina, Sal, Okan, John, Boo, Alex, 123, ]
+
+        System.out.println(treeSet.subSet("Boo", "Sandina")); // [Boo, John, Okan, Sal]
+
+        System.out.println(treeSet.tailSet("Okan")); // [Okan, Sal, Sandina, abc]
+        System.out.println(treeSet.headSet("Okan")); // [, 123, Alex, Boo, John]
+
+        System.out.println(treeSet.floor("Okan")); // Okan
+        System.out.println(treeSet.ceiling("Okan")); // Okan
+
+        System.out.println(treeSet.lower("Okan")); // John
+        System.out.println(treeSet.higher("Okan")); // Sal
+
+        System.out.println(treeSet.first()); // min
+        System.out.println(treeSet.last()); // max
     }
 }
