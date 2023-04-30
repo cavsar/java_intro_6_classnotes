@@ -1,9 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class _02_Set {
     public static void main(String[] args) {
@@ -109,5 +106,11 @@ public class _02_Set {
 
         System.out.println(treeSet.first()); // min
         System.out.println(treeSet.last()); // max
+
+        System.out.println("\n-----------HashSet, LinkedHashSet and TreeSet in the shape of Set----------\n");
+        Set<Integer> number1 = new HashSet<>();
+        Set<Integer> number2 = new LinkedHashSet<>();
+        Set<Integer> number3 = new TreeSet<>();
+
     }
 }
