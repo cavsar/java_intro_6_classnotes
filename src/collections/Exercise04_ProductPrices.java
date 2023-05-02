@@ -1,6 +1,6 @@
 package collections;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class Exercise04_ProductPrices {
     public static void main(String[] args) {
@@ -33,7 +33,6 @@ public class Exercise04_ProductPrices {
         products.put("iMac", 1500.0);
         products.put("AirPods", 200.0);
         products.put("iPad", 700.0);
-
 
     }
 }
