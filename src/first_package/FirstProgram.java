@@ -1,5 +1,7 @@
 package first_package;
 
+import singleton.Phone;
+
 public class FirstProgram {
     public static void main(String[] args) {
 
@@ -22,6 +24,5 @@ public class FirstProgram {
          *
          *
          */
-
     }
 }
