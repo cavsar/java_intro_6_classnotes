@@ -19,5 +19,13 @@ public class PracticeEnums {
             System.out.println(m);
         }
 
+
+        System.out.println(Constants.TShirtSize.MEDIUM); // MEDIUM
+        System.out.println(Constants.Direction.WEST); // WEST
+
+        for (Constants.Gender value : Constants.Gender.values()) {
+            System.out.println(value);
+        }
+
     }
 }
