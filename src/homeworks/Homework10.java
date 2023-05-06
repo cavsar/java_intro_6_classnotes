@@ -44,11 +44,13 @@ public class Homework10 {
     //////////////////Task02/////////////////////
 
     public static int countA(String str){
+
         return str.replaceAll("[^aA]", "").length();
     }
 
     //////////////////Task03/////////////////////
     public static int countPos(ArrayList<Integer> list){
+
         return (int) list.stream().filter(e -> e > 0).count();
     }
 
